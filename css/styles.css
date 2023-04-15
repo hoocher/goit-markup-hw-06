@@ -142,9 +142,11 @@ body {
 
 .modal {
     width: 408px;
-    height: 576px;
+    height: 584px;
     background-color: #FCFCFC;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 72px;
+    padding-bottom: 24px;
 
     position: fixed;
     left: 50%;
@@ -192,20 +194,23 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 72px;
     text-align: center;
+    margin-bottom: 16px;
 
     color: var(--title-color);
 }
 
-.modal-form {
-    margin-top: 16px;
+.modal-form {}
+
+.modal-field {
+    margin-bottom: 8px;
 }
 
-.modal-field {}
+.modal-field-last {
+    margin-bottom: 16px;
+}
 
 .checkbox-field {
-    margin-top: 8px;
     margin-bottom: 24px;
 }
 
@@ -220,7 +225,6 @@ body {
 }
 
 .input-wrap {
-    margin-bottom: 8px;
     position: relative;
 }
 
@@ -521,14 +525,12 @@ body {
 
 .subscribe-form {
     display: flex;
-    align-items: end;
+    margin-top: 16px;
 }
 
 .subscribe-field {}
 
-.subscribe-wrap {
-    margin-top: 16px;
-}
+.subscribe-wrap {}
 
 .subscribe-input {
     width: 264px;
